@@ -1,0 +1,50 @@
+**Objetivos de una Arquitectura CSS**
+-
+- Predecible
+- Reutilizable
+- Mantenible
+- Escalable
+
+****
+**Buenas Practicas**
+-
+- Establecer reglas
+- Explicar la estructura base
+- Establecer  estandares de codificación
+- Evitar largas hojas de estilo
+- Documentación
+
+****
+**OOCSS**
+- https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/
+***
+**BEM** -> Block Element Modify
+- http://getbem.com/introduction/
+***
+**SMACSS** > Arquitectura de CSS Escalable y Modular
+- http://smacss.com/
+- Base
+- Layout
+- Module
+- State
+- Theme
+* SMACSS
+***
+**ITCSS** > Triangulo invertido de CSS
+- https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+- Ajustes
+- Herramientas
+- Generico
+- Elementos
+- Objetos
+- Componentes
+- Utilidades
+***
+**Atomic Design**
+- http://bradfrost.com/blog/post/atomic-web-design/
+- Átomos
+- Moléculas
+- Organismos
+- Templates
+- Páginas
+
