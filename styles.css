@@ -39,6 +39,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .login__container--form {
@@ -91,6 +92,23 @@ body {
 }
 
 .login__container--register a:hover {
+    text-decoration: underline;
+}
+
+.register__container--login {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.register__container--login a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.register__container--login a:hover {
     text-decoration: underline;
 }
 
