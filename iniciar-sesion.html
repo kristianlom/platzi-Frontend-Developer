@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar sesión</title>
+</head>
+<style>
+
+    body {
+        margin: 0;
+        font-family: 'Muli', sans-serif;
+    }
+
+    .header {
+        background-color: #8F57FD;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__img {
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+</style>
+<body>
+<header class="header">
+    <img alt="" class="header__img" src="logo-platzi-video.png">
+</header>
+<section class="login">
+    <section class="login__container">
+        <h2>Inicia sesión</h2>
+        <form action="" class="login__container--form">
+            <label>
+                <input class="input" placeholder="Correo" type="text">
+            </label>
+            <label>
+                <input class="input" placeholder="Contraseña" type="password">
+            </label>
+            <button class="button">Iniciar sesión</button>
+            <div class="login__container--remember-me">
+                <label>
+                    <input id="cbox1" name="" type="checkbox" value="checkbox"> Recuérdame
+                </label>
+                <a href="/">Olvidé mi contraseña</a>
+            </div>
+        </form>
+        <section class="login__container--social-media">
+            <div><img alt="Google" src="assets/google-icon.png">Inicia sesión con Google</div>
+            <div><img alt="Google" src="assets/twitter-icon.png">Inicia sesión con Twitter</div>
+        </section>
+        <p class="login__container--register">No tienes ninguna cuenta. <a href="">Registrate</a></p>
+    </section>
+</section>
+<footer class="footer">
+    <a href="/">Términos de uso</a>
+    <a href="/">Declaración de privacidad</a>
+    <a href="/">Centro de ayuda</a>
+</footer>
+</body>
+</html>
